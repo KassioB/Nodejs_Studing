@@ -1,0 +1,38 @@
+//-crirar usuarios 
+//-listagem de usuarios 
+//-edicao de usuarios 
+//-remoçao de usuarios 
+
+//--http 
+//-metodo http
+//-url
+
+//GET, POST, PUT, PATCH, DELETE
+
+//GET - Buscar uma informação do back-end
+//POST - Criar uma informação no back-end
+//PUT - Atualizar um recurso no back-end
+//PATCH - Atualizar uma informação especifica de um recuroso no back-end
+//DELETE - Deletar um recurso do back-end
+
+//GET /users - Buscando usuarios do back-end
+//POST /users - Criar um usuario no back-end
+
+//Stateful - Stateless
+
+//JSON - JavaScript Object Notation
+
+//Cabeçalhos (Requisição/resposta) => Metadados
+
+//Query Parameters: URL Stateful => filtros, paginação, não-obrigatorios
+//Route Parameters: Identificação de recurso
+//Request Body: Envio de informações de um formulário (HTTPs)
+
+// http://localhost:3333/users?userId=16name=Kassio
+
+// GET http://localhost:3333/users/1
+// DELETE http://localhost:3333/users/1
+
+// POST http://localhost:3333/users
+
+// Edição e remoçao de usuarios
